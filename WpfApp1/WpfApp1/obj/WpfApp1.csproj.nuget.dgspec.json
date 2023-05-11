@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WPF\\kenly\\Hi7MDR\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
+    "D:\\WPF\\Hi7MDR\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "D:\\WPF\\kenly\\Hi7MDR\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
+    "D:\\WPF\\Hi7MDR\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WPF\\kenly\\Hi7MDR\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "D:\\WPF\\Hi7MDR\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "D:\\WPF\\kenly\\Hi7MDR\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectPath": "D:\\WPF\\Hi7MDR\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\WPF\\kenly\\Hi7MDR\\WpfApp1\\WpfApp1\\obj\\",
+        "outputPath": "D:\\WPF\\Hi7MDR\\WpfApp1\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
