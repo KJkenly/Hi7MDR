@@ -1,0 +1,5 @@
+D:\WPF\Hi7MDR\WpfApp1\WpfApp1\bin\Release\net6.0-windows\app.publish\WpfApp1.exe
+D:\WPF\Hi7MDR\WpfApp1\WpfApp1\bin\Release\net6.0-windows\app.publish\WpfApp1.dll
+D:\WPF\Hi7MDR\WpfApp1\WpfApp1\bin\Release\net6.0-windows\app.publish\WpfApp1.deps.json
+D:\WPF\Hi7MDR\WpfApp1\WpfApp1\bin\Release\net6.0-windows\app.publish\WpfApp1.runtimeconfig.json
+D:\WPF\Hi7MDR\WpfApp1\WpfApp1\bin\Release\net6.0-windows\app.publish\WpfApp1.pdb
