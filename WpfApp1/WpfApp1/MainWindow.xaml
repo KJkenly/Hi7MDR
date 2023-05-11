@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="version1" HorizontalAlignment="Left" Height="35" Margin="42,51,0,0" VerticalAlignment="Top" Width="121"/>
+        <Label Content="version2" HorizontalAlignment="Left" Height="35" Margin="42,51,0,0" VerticalAlignment="Top" Width="121"/>
+        <ComboBox HorizontalAlignment="Left" Height="35" Margin="42,91,0,0" VerticalAlignment="Top" Width="135"/>
+        <Slider HorizontalAlignment="Left" Height="23" Margin="42,159,0,0" VerticalAlignment="Top" Width="184"/>
 
     </Grid>
 </Window>
