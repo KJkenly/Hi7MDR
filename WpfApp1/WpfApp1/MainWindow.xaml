@@ -17,6 +17,6 @@
         <ComboBox HorizontalAlignment="Left" Height="35" Margin="42,91,0,0" VerticalAlignment="Top" Width="135"/>
         <Slider HorizontalAlignment="Left" Height="23" Margin="42,159,0,0" VerticalAlignment="Top" Width="135" Foreground="White"/>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="232,91,0,0" VerticalAlignment="Top" Height="17" Width="98"/>
-
+        <Button Content="Check for Updates" Click="CheckForUpdates_Click" Height="NaN" Margin="226,156,446,232" Width="NaN" />
     </Grid>
 </Window>

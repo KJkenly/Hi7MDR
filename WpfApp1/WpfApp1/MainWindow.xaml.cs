@@ -12,6 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Reflection;
+using System.Diagnostics;
+using System.Xml.Linq;
+using System.IO;
+using Path = System.IO.Path;
 
 namespace WpfApp1
 {
@@ -23,6 +28,29 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void CheckForUpdates_Click(object sender, RoutedEventArgs e)
+        {
+            //Assembly assembly = Assembly.GetExecutingAssembly();
+            //FileVersionInfo fileVersionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
+            //MessageBox.Show(fileVersionInfo.FileVersion);
+            string profileFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Properties", "PublishProfiles", "ClickOnceProfile.pubxml");
+
+            if (File.Exists(profileFilePath))
+            {
+                XElement root = XElement.Load(profileFilePath);
+
+                XNamespace ns = root.GetDefaultNamespace();
+                string applicationVersion = root.Element(ns + "PropertyGroup")?.Element(ns + "ApplicationVersion")?.Value;
+                string updateEnabled = root.Element(ns + "PropertyGroup")?.Element(ns + "UpdateEnabled")?.Value;
+
+                // ทำสิ่งที่ต้องการด้วย applicationVersion และ updateEnabled
+            }
+            else
+            {
+                // ไม่พบไฟล์ ClickOnceProfile.pubxml
+            }
         }
     }
 }
